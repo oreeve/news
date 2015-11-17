@@ -10,7 +10,7 @@
     <ol>
       <% @articles.each do |article| %>
         <li><%=article[:article_title]%><br>
-        <a href="<%=article[:article_url]%>"><%=article[:article_url]%></a><br>
+        <a href="<%=article[:article_url]%>" target="_blank"><%=article[:article_url]%></a><br>
         <%=article[:article_desc]%><br>
       </li><br>
       <% end %>
